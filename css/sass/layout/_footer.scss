@@ -1,0 +1,68 @@
+footer
+{
+    background-color: #ddd;
+    margin-top: 20px;
+    .row
+    {
+        display: flex;
+        justify-content: space-between;
+        p 
+        {
+            color: #777;
+        }
+        .gallery
+        {
+            width: 45%;
+           .box-img
+           {
+            display: flex;
+            margin-bottom: 15px;
+            gap: 15px;
+            h5 
+            {
+                color: $reColor;
+                font-size: 18px;
+            }
+            img 
+            {
+                max-width: 25%;
+            }
+            p{
+                line-height: 27px;
+            }
+           }
+        }
+        //gallery 
+        .info
+        {
+            span{
+                color: $reColor;
+            }
+        }
+        .contact
+        {
+            input 
+            {
+                display: block;
+                margin-bottom: 15px;
+                height: 30px;
+             
+            input , textarea
+            {
+                outline: none;
+                border: none;
+                border-radius: 5px;
+                -webkit-border-radius: 5px;
+                -moz-border-radius: 5px;
+                -ms-border-radius: 5px;
+                -o-border-radius: 5px;
+            }
+            // .main-button
+            // {
+            //     background-color: $reColor !important;
+            //     color: white;
+            // }
+        }
+    }
+    }
+}
